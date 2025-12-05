@@ -1,5 +1,7 @@
 import style from "./App.module.css";
 
+import fotoMusica from "/naMoral.jpg"
+
 function App() {
   return (
     <>
@@ -8,10 +10,12 @@ function App() {
         <a href="#s2">Significado</a>
       </nav>
 
-
       <section id="s1" className={style.s1}>
         <h2 className={style.NomeMusica}>Namoral Cansei</h2>
         <h3 className={style.nomeCompositor}>Tavin</h3>
+        <h4 className={style.img}>
+          <img src={fotoMusica} alt="Foto da Musica" />
+        </h4>
         <p className={style.p1}>
           Na moral, cansei, minha vida tá complicada <br /> Minha mãe reclama
           que só ela faz tudo em casa
