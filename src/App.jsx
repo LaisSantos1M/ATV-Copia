@@ -81,7 +81,7 @@ function App() {
         <p className={style.p10}>
           Mas eu sou um garoto especial <br /> Com cara de menino de comercial{" "}
           <br /> Que não tá nem ligando pro colegial <br /> E dizem que
-          adolescente é sempre igualp
+          adolescente é sempre igual
         </p>
       </section>
 
